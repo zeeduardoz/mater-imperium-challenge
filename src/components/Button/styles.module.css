@@ -1,0 +1,28 @@
+.button_container {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  height: 48px;
+  border: 1px solid #f8f8fa;
+  border-radius: 8px;
+  background-color: var(--primary);
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  color: var(--secondary);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button_container:hover {
+  background: #f8f8fa;
+}
+
+@media (max-width: 768px) {
+  .button_container {
+    width: 50%;
+  }
+}

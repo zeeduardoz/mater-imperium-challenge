@@ -1,0 +1,14 @@
+.footer_container {
+  position: 'sticky';
+  bottom: 0;
+  width: 100%;
+  margin-top: 96px;
+  padding: 24px 0;
+  border-top: 1px solid #f8f8fa;
+}
+
+.footer_copyright {
+  font-size: 14px;
+  color: var(--tertiary);
+  text-align: center;
+}
