@@ -1,8 +1,9 @@
 import React from 'react'
 
+import { BiChevronRight } from 'react-icons/bi'
+
 import styles from './styles.module.css'
 import type { IButtonProps } from './types'
-import { BiChevronRight } from 'react-icons/bi'
 
 export function Button({ title, onClick }: IButtonProps) {
   return (
